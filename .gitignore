@@ -301,9 +301,9 @@ __pycache__/
 
 
 **/App_Browsers/*
-/NCDChild_Umbraco.Web/Config/splashes
-/NCDChild_Umbraco.Web/umbraco
-/NCDChild_Umbraco.Web/umbraco_client
-/NCDChild_Umbraco.Web/App_Data
-/NCDChild_Umbraco.Web/dist
-/NCDChild_Umbraco.Web/Static/stylesheets
+**/Config/splashes
+**/umbraco
+**/umbraco_client
+**/App_Data
+**/dist
+**/Static/stylesheets
