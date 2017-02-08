@@ -32,14 +32,12 @@ Since we are using uSync for syncing Document Types and Data Types between envir
 1. Create new directory in root of project called "Umbraco_Packages".
 2. Download Courier to new "Umbraco_Packages" directory. https://our.umbraco.org/projects/umbraco-pro/umbraco-courier/
 3. Open Umbraco Backoffice and Developer Tab. Select Packages. Install Local and Upload Package.
-
-> We recommend downloading packages manually and storing in Source Control to avoid conflicts in versioning between environments. If packages are added after setting up multiple environments, they will need to be installed in each environment's Backoffice.
-
 4. Purchase Courier Express License. https://umbraco.com/products/umbraco-courier/
 5. Follow instructions to register Local, Development, Staging, and Production URL's with License.
 6. Once the License is received, add to "bin" directory.
 7. Configure courier.config file from this repository on lines 6-22 for each environment registered with License. Add to "Config" directory when complete.
 
+> We recommend downloading packages manually and storing in Source Control to avoid conflicts in versioning between environments. If packages are added after setting up multiple environments, they will need to be installed in each environment's Backoffice.
 
 
 
