@@ -21,7 +21,7 @@ uSync in an Umbraco package that takes the bits of Umbraco that are stored in a 
 	PM> Install-Package uSync
 	```
 
-Note: A "uSync" directory will be created when installing the package via Nuget. It will contain XML config files for everything in your database. When new Document Types or Data Types are created from the Umbraco Backoffice, it will automatically generate the necessary config file. When a project builds, it will import everything from the uSync folder. For example, when merging from a Dev to Staging branch, the uSync folder will merge over and will be imported the next time the project builds on Staging. This will keep your database always in sync between environments.
+> A "uSync" directory will be created when installing the package via Nuget. It will contain XML config files for everything in your database. When new Document Types or Data Types are created from the Umbraco Backoffice, it will automatically generate the necessary config file. When a project builds, it will import everything from the uSync folder. For example, when merging from a Dev to Staging branch, the uSync folder will merge over and will be imported the next time the project builds on Staging. This will keep your database always in sync between environments.
 
 ## Courier
 
@@ -33,7 +33,7 @@ Since we are using uSync for syncing Document Types and Data Types between envir
 2. Download Courier to new "Umbraco_Packages" directory. https://our.umbraco.org/projects/umbraco-pro/umbraco-courier/
 3. Open Umbraco Backoffice and Developer Tab. Select Packages. Install Local and Upload Package.
 
-Note: We recommend downloading packages manually and storing in Source Control to avoid conflicts in versioning between environments. If packages are added after setting up multiple environments, they will need to be installed in each environment's Backoffice.
+> We recommend downloading packages manually and storing in Source Control to avoid conflicts in versioning between environments. If packages are added after setting up multiple environments, they will need to be installed in each environment's Backoffice.
 
 4. Purchase Courier Express License. https://umbraco.com/products/umbraco-courier/
 5. Follow instructions to register Local, Development, Staging, and Production URL's with License.
