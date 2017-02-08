@@ -2,7 +2,7 @@
 
 These are the base files and instructions on implementation needed for new Umbraco Projects. We recommend setting these up before branching to multiple environments with Git.
 
-Umbraco
+Umbraco CMS
 ======
 1. Install via Nuget.
 
@@ -13,7 +13,7 @@ Umbraco
 
 uSync
 ======
-uSync in an Umbraco package that takes the bits of Umbraco that are stored in a database and moves them to disk, so you can source control, copy and move your Umbraco site between computers and servers. It will NOT sync content. It is free.
+uSync in an Umbraco package that takes the bits of Umbraco that are stored in a database and moves them to disk, so you can source control, copy, and move your Umbraco site between computers and servers. It will NOT sync content. It is free.
 
 1. Install via Nuget.
 
