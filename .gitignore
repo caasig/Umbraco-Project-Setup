@@ -306,4 +306,4 @@ __pycache__/
 **/umbraco_client
 **/App_Data
 **/dist
-**/Static/stylesheets
+**/static/stylesheets
